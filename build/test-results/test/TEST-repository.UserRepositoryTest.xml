@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="repository.UserRepositoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-02T16:56:34" hostname="LOCALHOST" time="0.095">
+  <properties/>
+  <testcase name="save()" classname="repository.UserRepositoryTest" time="0.095"/>
+  <system-out><![CDATA[Hibernate: 
+    insert 
+    into
+        users
+        (birth_date, company_id, firstname, lastname, role, username) 
+    values
+        (?, ?, ?, ?, ?, ?)
+]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.jboss.logging).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+</testsuite>
